@@ -1,0 +1,10 @@
+# Function to sort two numbers in a list
+def sort_two_numbers(numbers):
+    if len(numbers) != 2:
+        raise ValueError("List must contain exactly two numbers")
+    return sorted(numbers)
+
+# Example usage
+numbers = [5, 3]
+sorted_numbers = sort_two_numbers(numbers)
+print(sorted_numbers)  # Output: [3, 5]
